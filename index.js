@@ -4,21 +4,21 @@ switch (true) {
     console.log("Invalid value");
     break;
   case point > 90:
-    console.log("A");
+    console.log("Your grade is A");
     break;
   case point > 80:
-    console.log("B");
+    console.log("Your grade is B");
     break;
   case point > 70:
-    console.log("C");
+    console.log("Your grade is C");
     break;
   case point > 60:
-    console.log("D");
+    console.log("Your grade is D");
     break;
   case point > 50:
-    console.log("E");
+    console.log("Your grade is E");
     break;
   default:
-    console.log("F");
+    console.log("Your grade is F");
     break;
 }
